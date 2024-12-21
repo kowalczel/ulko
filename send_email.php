@@ -6,7 +6,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $message = htmlspecialchars($_POST['message']);
 
     // Adres, na który zostanie wysłany e-mail
-    $to = "twoj-adres-email@example.com";
+    $to = "biuro@ulkogeotechnika.pl";
 
     // Temat e-maila
     $subject = "Zapytanie ze strony internetowej";
