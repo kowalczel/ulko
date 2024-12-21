@@ -213,3 +213,52 @@ footer {
     text-align: center;
     padding: 1rem 0;
 }
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px; /* Zmniejszenie podstawowego rozmiaru tekstu */
+    }
+
+    header nav ul {
+        flex-direction: column; /* Menu w jednej kolumnie */
+        align-items: center;
+    }
+
+    header nav ul li {
+        margin: 10px 0; /* Oddzielenie elementów menu */
+    }
+
+    .hero {
+        padding: 3rem 1rem; /* Zmniejszenie wewnętrznych odstępów */
+    }
+
+    .hero h1 {
+        font-size: 1.8rem; /* Zmniejszenie wielkości nagłówka */
+    }
+
+    .hero p {
+        font-size: 1rem; /* Dostosowanie rozmiaru opisu */
+    }
+
+    .services .service-list {
+        flex-direction: column; /* Usługi w jednej kolumnie */
+        gap: 15px; /* Mniejsze odstępy między elementami */
+    }
+
+    .projects .project-gallery {
+        flex-direction: column; /* Projekty w jednej kolumnie */
+        gap: 15px; /* Odstępy między projektami */
+    }
+
+    .contact form {
+        padding: 1rem; /* Zmniejszenie odstępów formularza */
+    }
+
+    .contact .btn {
+        font-size: 1rem; /* Dostosowanie rozmiaru przycisku */
+    }
+
+    footer {
+        font-size: 12px; /* Zmniejszenie rozmiaru tekstu stopki */
+    }
+}
