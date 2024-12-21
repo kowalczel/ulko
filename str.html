@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Profesjonalne usługi inżynieryjne - projekty konstrukcyjne, doradztwo techniczne i nadzór budowlany.">
+    <meta name="keywords" content="usługi inżynieryjne, projekty konstrukcyjne, nadzór budowlany, doradztwo techniczne">
+    <meta name="author" content="ULKO Geotechnika">
+    <title>ULKO Geotechnika</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                        <img src="images/ULKOlogo_top.png" alt="ULKOlogo">			
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#o-nas">O nas</a></li>
+                    <li><a href="#uslugi">Usługi</a></li>
+                    <li><a href="#projekty">Projekty</a></li>
+                    <li><a href="#kontakt">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Twoje wsparcie w projektowaniu geotechnicznym</h1>
+                <p>Oferujemy profesjonalne usługi projektowe w branży geotechnicznej dla Inwestorów, Generalnych Wykonawców, Architektów, Projektantów Konstrukcji i Wykonawców robót specjalistycznych..</p>
+                <a href="#uslugi" class="btn">Dowiedz się więcej</a>
+            </div>
+        </section>
+
+        <section id="o-nas" class="about">
+            <div class="container">
+                <h2>O nas</h2>
+                <p>Nasza firma specjalizuje się w projektowaniu konstrukcji budowlanych, doradztwie technicznym oraz nadzorze budowlanym. Dzięki wieloletniemu doświadczeniu i zaangażowaniu, dostarczamy naszym klientom usługi na najwyższym poziomie.</p>
+            </div>
+        </section>
+
+        <section id="uslugi" class="services">
+            <div class="container">
+                <h2>Nasze usługi</h2>
+                <div class="service-list">
+                    <div class="service">
+                        <h3>Koncepcje projektowe</h3>
+                        <p>Oferujemy kompleksowe projektowanie konstrukcji stalowych, żelbetowych oraz drewnianych.</p>
+                    </div>
+                    <div class="service">
+                        <h3>Optymalizacja rozwiązań projektowych</h3>
+                        <p>Zapewniamy wsparcie techniczne na każdym etapie inwestycji.</p>
+                    </div>
+                    <div class="service">
+                        <h3>Projekty technologiczne</h3>
+                        <p>Profesjonalny nadzór budowlany gwarantujący realizację inwestycji zgodnie z projektem.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projekty" class="projects">
+            <div class="container">
+                <h2>Nasze realizacje</h2>
+                <div class="project-gallery">
+                    <div class="project-item">
+                        <img src="images/ULKOlogo_top.png" alt="Projekt 1">
+                        <h3>To</h3>
+                    </div>
+                    <div class="project-item">
+                        <img src="images/ULKOlogo_top.png" alt="Projekt 2">
+                        <h3>Tamto</h3>
+                    </div>
+                    <div class="project-item">
+                        <img src="images/ULKOlogo_top.png" alt="Projekt 3">
+                        <h3>Siamto</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="kontakt" class="contact">
+            <div class="container">
+                <h2>Skontaktuj się z nami</h2>
+                <form action="send_form.php" method="post">
+                    <div class="form-group">
+                        <label for="name">Imię i nazwisko</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Adres e-mail</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Wiadomość</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Wyślij</button>
+                </form>
+            </div>
+        </section>
+		
+		 <section id="dane-kontaktowe" class="contact-details">
+            <div class="container">
+                <h2>Dane kontaktowe</h2>
+                <p><strong>Adres:</strong> Ul. Wytrzyszczek 11A, 32-052 Radziszów</p>
+                <p><strong>Telefon:</strong> +48 788 164 046</p>
+                <p><strong>E-mail:</strong> biuro@ulkogeotechnika.pl</p>
+                <p><strong>NIP:</strong> 944-229-19-38</p>
+                <p><strong>REGON:</strong> 540259062</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 ULKO Geotechnika. Wszelkie prawa zastrzeżone.</p>
+        </div>
+    </footer>
+</body>
+</html>

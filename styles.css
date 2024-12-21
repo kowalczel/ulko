@@ -1,0 +1,215 @@
+/* Reset stylów */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Aptos, sans-serif;
+    line-height: 1.6;
+    color: #005e86;
+    background-color: #005e86;
+    margin: 0;
+}
+
+header {
+    background: #fff;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+header .logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header .menu {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+header .menu a {
+    color: #005e86;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header .menu a:hover {
+    color: #ffcc00;
+}
+
+.hero {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 5rem 1rem;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.hero .btn {
+    background: #ffcc00;
+    color: #005e86;
+    padding: 0.5rem 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.hero .btn:hover {
+    background: #e6b800;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.about {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #fff;
+    margin-bottom: 1rem;
+}
+
+.services {
+    background: #f8f8f8;
+    padding: 2rem 0;
+}
+
+.services .service-list {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.services .service {
+    flex: 1 1 calc(33.333% - 2rem);
+    background: #fff;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.services .service h3 {
+    color: #0056b3;
+    margin-bottom: 1rem;
+}
+
+.projects {
+    background: #fff;
+    padding: 2rem 0;
+	
+}
+
+.projects .project-gallery {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.projects .project-item {
+    flex: 1 1 calc(33.333% - 2rem);
+    text-align: center;
+}
+
+.projects .project-item img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.projects .project-item h3 {
+    color: #0056b3;
+}
+
+.contact {
+    background: #f8f8f8;
+    padding: 2rem 0;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact .form-group {
+    margin-bottom: 1rem;
+}
+
+.contact .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.contact .form-group input,
+.contact .form-group textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact .btn {
+    background: #0056b3;
+    color: #fff;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.contact .btn:hover {
+    background: #004494;
+}
+.contact-details {
+    background: #005e86;
+	    color: #fff;
+    padding: 2rem;
+    border-radius: 5px;
+}
+
+.contact-details p {
+    margin-bottom: 0.5rem;
+}
+
+footer {
+    background: #005e86;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
