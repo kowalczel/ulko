@@ -1,217 +1,246 @@
-/* Reset stylów */
+/* Reset stylów - usunięcie domyślnych marginesów i paddingów */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0; /* Usuwa domyślne marginesy */
+    padding: 0; /* Usuwa domyślne odstępy wewnętrzne */
+    box-sizing: border-box; /* Uwzględnia padding i border w szerokości elementu */
 }
 
+/* Ustawienia ogólne dla ciała strony */
 body {
-    font-family: Aptos, sans-serif;
-    line-height: 1.6;
-    color: #005e86;
-    background-color: #005e86;
-    margin: 0;
+    font-family: Aptos, sans-serif; /* Czcionka podstawowa */
+    line-height: 1.6; /* Wysokość wierszy */
+    color: #005e86; /* Kolor tekstu */
+    background-color: #005e86; /* Kolor tła */
+    margin: 0; /* Usunięcie marginesów */
 }
 
+/* Nagłówek strony */
 header {
-    background: #fff;
-    color: #fff;
-    padding: 1rem 0;
+    background: #fff; /* Kolor tła nagłówka */
+    color: #fff; /* Kolor tekstu */
+    padding: 1rem 0; /* Odstępy wewnętrzne */
 }
 
+/* Kontener w nagłówku */
 header .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 1rem;
+    display: flex; /* Ustawienie elastycznego układu */
+    justify-content: space-between; /* Rozdzielenie elementów na boki */
+    align-items: center; /* Wyrównanie w pionie */
+    max-width: 1200px; /* Maksymalna szerokość */
+    margin: 0 auto; /* Wyśrodkowanie kontenera */
+    padding: 0 1rem; /* Odstępy wewnętrzne po bokach */
 }
 
+/* Styl logo */
 header .logo a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.5rem;
-    font-weight: bold;
+    color: #fff; /* Kolor tekstu logo */
+    text-decoration: none; /* Usunięcie podkreślenia */
+    font-size: 1.5rem; /* Wielkość tekstu */
+    font-weight: bold; /* Pogrubienie tekstu */
 }
 
+/* Menu nawigacyjne */
 header .menu {
-    list-style: none;
-    display: flex;
-    gap: 1rem;
+    list-style: none; /* Usunięcie punktów listy */
+    display: flex; /* Wyświetlenie elementów w linii */
+    gap: 1rem; /* Odstępy między elementami */
 }
 
+/* Linki w menu */
 header .menu a {
-    color: #005e86;
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s;
+    color: #005e86; /* Kolor tekstu */
+    text-decoration: none; /* Usunięcie podkreślenia */
+    font-weight: bold; /* Pogrubienie tekstu */
+    transition: color 0.3s; /* Płynna zmiana koloru */
 }
 
+/* Efekt najechania na link */
 header .menu a:hover {
-    color: #ffcc00;
+    color: #ffcc00; /* Zmiana koloru po najechaniu */
 }
 
+/* Sekcja hero (główna sekcja strony) */
 .hero {
-    background: url('hero-bg.jpg') no-repeat center center/cover;
-    color: #fff;
-    text-align: center;
-    padding: 5rem 1rem;
+    background: url('hero-bg.jpg') no-repeat center center/cover; /* Tło sekcji */
+    color: #fff; /* Kolor tekstu */
+    text-align: center; /* Wyśrodkowanie tekstu */
+    padding: 5rem 1rem; /* Odstępy wewnętrzne */
 }
 
+/* Nagłówek w sekcji hero */
 .hero h1 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
+    font-size: 2.5rem; /* Wielkość nagłówka */
+    margin-bottom: 1rem; /* Odstęp poniżej nagłówka */
 }
 
+/* Paragraf w sekcji hero */
 .hero p {
-    font-size: 1.2rem;
-    margin-bottom: 2rem;
+    font-size: 1.2rem; /* Wielkość tekstu */
+    margin-bottom: 2rem; /* Odstęp poniżej tekstu */
 }
 
+/* Przycisk w sekcji hero */
 .hero .btn {
-    background: #ffcc00;
-    color: #005e86;
-    padding: 0.5rem 1.5rem;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px;
-    transition: background 0.3s;
+    background: #fff; /* Kolor tła przycisku */
+    color: #005e86; /* Kolor tekstu */
+    padding: 0.5rem 1.5rem; /* Odstępy wewnętrzne */
+    text-decoration: none; /* Usunięcie podkreślenia */
+    font-weight: bold; /* Pogrubienie tekstu */
+    border-radius: 5px; /* Zaokrąglone rogi */
+    transition: background 0.3s; /* Płynna zmiana tła */
 }
 
+/* Efekt najechania na przycisk */
 .hero .btn:hover {
-    background: #e6b800;
+    background: #e6b800; /* Zmiana koloru tła */
 }
 
+/* Główne ustawienia kontenera */
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 2rem 1rem;
+    max-width: 1200px; /* Maksymalna szerokość */
+    margin: 0 auto; /* Wyśrodkowanie */
+    padding: 2rem 1rem; /* Odstępy wewnętrzne */
 }
 
+/* Sekcja \"O nas\" */
 .about {
-    text-align: center;
-    padding: 2rem 0;
-    background-color: #fff;
-    margin-bottom: 1rem;
+    text-align: center; /* Wyśrodkowanie tekstu */
+    padding: 2rem 0; /* Odstępy wewnętrzne */
+    background-color: #fff; /* Kolor tła */
+    margin-bottom: 1rem; /* Odstęp od kolejnej sekcji */
 }
 
+/* Sekcja usług */
 .services {
-    background: #f8f8f8;
-    padding: 2rem 0;
+	text-align: center; /* Wyśrodkowanie tekstu */
+    background: #f8f8f8; /* Kolor tła */
+    padding: 2rem 0; /* Odstępy wewnętrzne */
+	margin-bottom: 1rem; /* Odstęp poniżej nagłówka */
 }
 
+/* Lista usług */
 .services .service-list {
-    display: flex;
-    gap: 2rem;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.services .service {
-    flex: 1 1 calc(33.333% - 2rem);
-    background: #fff;
-    padding: 1rem;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    text-align: center;
-}
-
-.services .service h3 {
-    color: #0056b3;
-    margin-bottom: 1rem;
-}
-
-.projects {
-    background: #fff;
-    padding: 2rem 0;
 	
+    display: flex; /* Wyświetlenie w linii */
+    gap: 2rem; /* Odstępy między usługami */
+    flex-wrap: wrap; /* Dostosowanie do małych ekranów */
+    justify-content: space-between; /* Rozłożenie równomierne */
+}
+
+/* Pojedyncza usługa */
+.services .service {
+    flex: 1 1 calc(33.333% - 2rem); /* Rozmiar usługi */
+    background: #fff; /* Kolor tła */
+    padding: 1rem; /* Odstępy wewnętrzne */
+    border: 1px solid #ddd; /* Ramka wokół usługi */
+    border-radius: 5px; /* Zaokrąglone rogi */
+    text-align: center; /* Wyśrodkowanie tekstu */
+}
+
+/* Nagłówki usług */
+.services .service h3 {
+    color: #0056b3; /* Kolor nagłówka */
+    margin-bottom: 1rem; /* Odstęp poniżej nagłówka */
+}
+
+/* Sekcja projektów */
+.projects {
+	text-align: center; /* Wyśrodkowanie tekstu */
+    background: #f8f8f8; /* Kolor tła */
+    padding: 2rem 0; /* Odstępy wewnętrzne */
+	margin-bottom: 1rem; /* Odstęp poniżej nagłówka */
 }
 
 .projects .project-gallery {
-    display: flex;
-    gap: 2rem;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: flex; /* Ustawienie elastycznego układu dla galerii */
+    gap: 2rem; /* Odstępy między elementami galerii */
+    flex-wrap: wrap; /* Dostosowanie elementów do wielu wierszy */
+    justify-content: space-between; /* Rozłożenie elementów równomiernie */
+    margin-top: 3rem; /* Zwiększony odstęp między nagłówkiem a zdjęciami */
 }
 
 .projects .project-item {
-    flex: 1 1 calc(33.333% - 2rem);
-    text-align: center;
+    flex: 1 1 calc(33.333% - 2rem); /* Szerokość jednego projektu */
+    text-align: center; /* Wyśrodkowanie tekstu */
 }
 
 .projects .project-item img {
-    max-width: 100%;
-    border-radius: 5px;
-    margin-bottom: 1rem;
+    max-width: 100%; /* Obrazy zajmują maksymalnie 100% szerokości kontenera */
+    border-radius: 5px; /* Zaokrąglenie rogów obrazu */
+    margin-bottom: 1rem; /* Odstęp poniżej obrazu */
 }
 
 .projects .project-item h3 {
-    color: #0056b3;
+    color: #0056b3; /* Kolor nagłówka projektu */
+	
 }
 
+/* Sekcja kontaktowa */
 .contact {
-    background: #f8f8f8;
-    padding: 2rem 0;
+    background: #f8f8f8; /* Jasnoszare tło sekcji */
+    padding: 2rem 0; /* Odstępy wewnętrzne od góry i dołu */
 }
 
 .contact form {
-    max-width: 600px;
-    margin: 0 auto;
-    background: #fff;
-    padding: 1rem;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    max-width: 600px; /* Maksymalna szerokość formularza */
+    margin: 0 auto; /* Wyśrodkowanie formularza */
+    background: #fff; /* Białe tło formularza */
+    padding: 1rem; /* Odstępy wewnętrzne */
+    border: 1px solid #ddd; /* Szara ramka wokół formularza */
+    border-radius: 5px; /* Zaokrąglenie rogów formularza */
 }
 
 .contact .form-group {
-    margin-bottom: 1rem;
+    margin-bottom: 1rem; /* Odstęp między grupami w formularzu */
 }
 
 .contact .form-group label {
-    display: block;
-    margin-bottom: 0.5rem;
-    font-weight: bold;
+    display: block; /* Etykiety są wyświetlane w osobnych wierszach */
+    margin-bottom: 0.5rem; /* Odstęp poniżej etykiety */
+    font-weight: bold; /* Pogrubienie tekstu etykiety */
 }
 
 .contact .form-group input,
 .contact .form-group textarea {
-    width: 100%;
-    padding: 0.5rem;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    width: 100%; /* Pola wypełniają pełną szerokość kontenera */
+    padding: 0.5rem; /* Odstępy wewnętrzne w polach */
+    border: 1px solid #ddd; /* Szara ramka wokół pól */
+    border-radius: 5px; /* Zaokrąglenie rogów pól */
 }
 
 .contact .btn {
-    background: #0056b3;
-    color: #fff;
-    padding: 0.5rem 1.5rem;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: bold;
-    transition: background 0.3s;
+    background: #0056b3; /* Niebieskie tło przycisku */
+    color: #fff; /* Biały kolor tekstu */
+    padding: 0.5rem 1.5rem; /* Odstępy wewnętrzne */
+    border: none; /* Brak ramki */
+    border-radius: 5px; /* Zaokrąglenie rogów przycisku */
+    cursor: pointer; /* Wskaźnik zmienia się na rękę */
+    font-weight: bold; /* Pogrubienie tekstu */
+    transition: background 0.3s; /* Płynna zmiana koloru tła */
 }
 
 .contact .btn:hover {
-    background: #004494;
+    background: #004494; /* Ciemniejszy odcień niebieskiego po najechaniu */
 }
+
+/* Sekcja szczegółów kontaktu */
 .contact-details {
-    background: #005e86;
-	    color: #fff;
-    padding: 2rem;
-    border-radius: 5px;
+    background: #005e86; /* Tło w kolorze niebieskim */
+    color: #fff; /* Biały kolor tekstu */
+    padding: 2rem; /* Odstępy wewnętrzne */
+    border-radius: 5px; /* Zaokrąglenie rogów sekcji */
 }
 
 .contact-details p {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.5rem; /* Odstęp poniżej każdego akapitu */
 }
 
+/* Stopka strony */
 footer {
-    background: #005e86;
-    color: #fff;
-    text-align: center;
-    padding: 1rem 0;
+    background: #005e86; /* Tło stopki w kolorze niebieskim */
+    color: #fff; /* Biały kolor tekstu */
+    text-align: center; /* Wyśrodkowanie tekstu */
+    padding: 1rem 0; /* Odstępy wewnętrzne od góry i dołu */
 }
 
 @media (max-width: 768px) {
