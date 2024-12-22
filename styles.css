@@ -223,8 +223,9 @@ header .menu a:hover {
     background: #004494; /* Ciemniejszy odcień niebieskiego po najechaniu */
 }
 
-/* Sekcja szczegółów kontaktu */
 .contact-details {
+/* Sekcja szczegółów kontaktu */
+
     background: #005e86; /* Tło w kolorze niebieskim */
     color: #fff; /* Biały kolor tekstu */
     padding: 2rem; /* Odstępy wewnętrzne */
@@ -233,6 +234,7 @@ header .menu a:hover {
 
 .contact-details p {
     margin-bottom: 0.5rem; /* Odstęp poniżej każdego akapitu */
+
 }
 
 /* Stopka strony */
