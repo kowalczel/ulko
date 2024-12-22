@@ -75,7 +75,7 @@ header .menu a:hover {
 
 /* Paragraf w sekcji hero */
 .hero p {
-	    max-width: 1200px; /* Maksymalna szerokość */
+    max-width: 1200px; /* Maksymalna szerokość */
     margin: 0 auto; /* Wyśrodkowanie */
     padding: 1rem 0rem; /* Odstępy wewnętrzne */
     font-size: 1.2rem; /* Wielkość tekstu */
@@ -185,7 +185,7 @@ header .menu a:hover {
 }
 
 .contact form {
-    max-width: 12000px; /* Maksymalna szerokość formularza */
+    max-width: 1200px; /* Maksymalna szerokość formularza */
     margin: 0 auto; /* Wyśrodkowanie formularza */
     background: #fff; /* Białe tło formularza */
     padding: 1rem; /* Odstępy wewnętrzne */
