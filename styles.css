@@ -75,6 +75,9 @@ header .menu a:hover {
 
 /* Paragraf w sekcji hero */
 .hero p {
+	    max-width: 1200px; /* Maksymalna szerokość */
+    margin: 0 auto; /* Wyśrodkowanie */
+    padding: 1rem 0rem; /* Odstępy wewnętrzne */
     font-size: 1.2rem; /* Wielkość tekstu */
     margin-bottom: 2rem; /* Odstęp poniżej tekstu */
 }
@@ -182,7 +185,7 @@ header .menu a:hover {
 }
 
 .contact form {
-    max-width: 600px; /* Maksymalna szerokość formularza */
+    max-width: 12000px; /* Maksymalna szerokość formularza */
     margin: 0 auto; /* Wyśrodkowanie formularza */
     background: #fff; /* Białe tło formularza */
     padding: 1rem; /* Odstępy wewnętrzne */
@@ -239,8 +242,8 @@ header .menu a:hover {
 
 /* Stopka strony */
 footer {
-    background: #005e86; /* Tło stopki w kolorze niebieskim */
-    color: #fff; /* Biały kolor tekstu */
+    background: #fff; /* Tło stopki w kolorze niebieskim */
+    color: #005e86; /* Biały kolor tekstu */
     text-align: center; /* Wyśrodkowanie tekstu */
     padding: 1rem 0; /* Odstępy wewnętrzne od góry i dołu */
 }
