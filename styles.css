@@ -51,6 +51,7 @@ header .menu a {
     color: #005e86; /* Kolor tekstu */
     text-decoration: none; /* Usunięcie podkreślenia */
     font-weight: bold; /* Pogrubienie tekstu */
+    font-size: 1.2rem; /* Wielkość tekstu*/
     transition: color 0.3s; /* Płynna zmiana koloru */
 }
 
